@@ -8,7 +8,7 @@ import sys
 
 if __name__ == '__main__':    
     if(len(sys.argv)<3):
-        DEV="318prirC";
+        DEV="ABLMAT";
         DROOT="/run/media/lasercat/ssddata/all_283/";
         MNAME=__file__.split("/")[-2];
     else:

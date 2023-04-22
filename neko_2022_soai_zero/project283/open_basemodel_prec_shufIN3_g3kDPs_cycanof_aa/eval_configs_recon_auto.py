@@ -4,7 +4,7 @@ from configs import TAG
 from functools import partial
 
 from neko_2022_soai_zero.configs.routines.osdanmk7recon_eval_routine_cfg import osdanmk7r_eval_routine_cfg,arm_base_task_default2ar
-from neko_2021_mjt.dss_presets.dual_no_lsct_32_adapt import get_eval_dss_gzsl,get_eval_dss_osr,get_eval_dss_gosr,get_eval_dss_ostr;
+from neko_2021_mjt.dss_presets.dual_no_lsct_32 import get_eval_dss_gzsl,get_eval_dss_osr,get_eval_dss_gosr,get_eval_dss_ostr;
 def dan_mjst_eval_cfg(evalfn,tag,
         save_root,dsroot,
         log_path,iterkey):

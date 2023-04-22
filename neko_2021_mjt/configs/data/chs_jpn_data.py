@@ -14,16 +14,16 @@ def get_chs_mc_meta(root):
     trmeta = os.path.join(root,"dicts","dab3791MC.pt");
     return  trmeta;
 
-def get_jap_te_meta(root):
+def get_jpn_te_meta(root):
     temeta = os.path.join(root,"dicts","dabjpmlt.pt");
     return  temeta;
-def get_jap_te_meta_osr(root):
+def get_jpn_te_meta_osr(root):
     temeta = os.path.join(root,"dicts","dabjpmltch_osr.pt");
     return  temeta;
-def get_jap_te_meta_gosr(root):
+def get_jpn_te_meta_gosr(root):
     temeta = os.path.join(root,"dicts","dabjpmltch_nohirakata.pt");
     return  temeta;
-def get_jap_te_meta_ostr(root):
+def get_jpn_te_meta_ostr(root):
     temeta = os.path.join(root,"dicts","dabjpmltch_kanji.pt");
     return  temeta;
 
@@ -40,13 +40,13 @@ def get_hn_te_meta(root):
 def get_chs_tr_metag2(root):
     trmeta = os.path.join(root,"dicts","dab3791WTg2.pt");
     return  trmeta;
-def get_jap_te_metag2(root):
+def get_jpn_te_metag2(root):
     temeta = os.path.join(root,"dicts","dabjpmltg2.pt");
     return  temeta;
 def get_chs_tr_meta64(root):
     trmeta = os.path.join(root,"dicts","dab3791WT64.pt");
     return  trmeta;
-def get_jap_te_meta64(root):
+def get_jpn_te_meta64(root):
     temeta = os.path.join(root,"dicts","dabjpmlt64.pt");
     return  temeta;
 
@@ -116,7 +116,7 @@ def get_eval_monkey_color(root,maxT,lang,hw=[32,128]):
                 "MONKEY_"+lang: get_eval_word_color_core(teroot,maxT,hw),
             }
         }
-def get_eval_jap_color(root,maxT,hw=[32,128]):
+def get_eval_jpn_color(root,maxT,hw=[32,128]):
     teroot= get_mltjp_path(root);
     return {
         "dict_dir":None,

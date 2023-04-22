@@ -2,7 +2,7 @@ from eval_configs_recon import dan_mjst_eval_cfg
 from configs import TAG
 from neko_2022_soai_zero.do_experiments import do_experiments
 from neko_sdk.environment.copy import copymodel
-from neko_sdk.environment.hosts_home import get_dev_meta
+from neko_sdk.environment.hosts import get_dev_meta
 
 import sys
 

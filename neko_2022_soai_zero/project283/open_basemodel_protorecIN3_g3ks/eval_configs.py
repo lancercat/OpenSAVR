@@ -3,7 +3,7 @@ from configs import model_mod_cfg as modcfg
 from configs import arm_base_task_default2
 from neko_2021_mjt.configs.data.mjst_data import get_test_all_uncased_dsrgb,get_uncased_dsrgb_d_tr
 from configs import osdanmk7_eval_routine_cfg
-from neko_2021_mjt.configs.data.chs_jap_data import get_chs_HScqa,get_eval_jap_color,get_chs_tr_meta,get_jap_te_meta
+from neko_2021_mjt.configs.data.chs_jpn_data import get_chs_HScqa,get_eval_jpn_color,get_chs_tr_meta,get_jpn_te_meta
 from neko_2021_mjt.dss_presets.dual_no_lsct_32 import get_eval_dss;
 def dan_mjst_eval_cfg(
         save_root,dsroot,

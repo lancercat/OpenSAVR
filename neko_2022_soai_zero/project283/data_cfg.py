@@ -6,11 +6,11 @@ from neko_2021_mjt.configs.loadouts.base_module_set import arm_base_task_default
 def get_oss_training_protocol(dsroot,tag,log_path,bsize=48):
     maxT_chs=30;
     tr_meta_path_chs, train_joint_ds = get_dssscht(dsroot, maxT_chs, bsize);
-    te_meta_path_jap,te_meta_path_kr,jap_eval_ds,kr_eval_ds=get_eval_dss_jk(dsroot,maxT_chs);
+    te_meta_path_jpn,te_meta_path_kr,jap_eval_ds,kr_eval_ds=get_eval_dss_jk(dsroot,maxT_chs);
 
     task_dict = {}
     # task_dict = arm_base_task_default2(task_dict, "base_mjst_", osdanmk7_eval_routine_cfg, maxT_mjst, te_meta_path_mjst,mjst_eval_ds , log_path);
-    task_dict = arm_base_task_default2(task_dict, tag, osdanmk7_eval_routine_cfg, maxT_chs, te_meta_path_jap,
+    task_dict = arm_base_task_default2(task_dict, tag, osdanmk7_eval_routine_cfg, maxT_chs, te_meta_path_jpn,
                                        jap_eval_ds,
                                        log_path,name="GZSL-CHS-JP");
     # task_dict = arm_base_task_default2(task_dict, tag, osdanmk7_eval_routine_cfg, maxT_chs, te_meta_path_kr,

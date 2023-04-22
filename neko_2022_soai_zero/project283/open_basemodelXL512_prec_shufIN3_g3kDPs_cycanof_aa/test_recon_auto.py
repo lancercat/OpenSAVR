@@ -1,7 +1,7 @@
 from configs import TAG
 from neko_2022_soai_zero.do_experiments import do_experiments2
 from neko_sdk.environment.copy import copymodel
-from neko_sdk.environment.hosts_home import get_dev_meta
+from neko_sdk.environment.hosts import get_dev_meta
 from eval_configs_recon_auto import dan_open_all
 import sys
 

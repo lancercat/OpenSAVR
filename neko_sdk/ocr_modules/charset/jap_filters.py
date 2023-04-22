@@ -14,7 +14,7 @@ def seen(gt):
 def ukanji(gt):
     return wo_hirakata(gt) and not seen(gt);
 
-def get_jap_filters():
+def get_jpn_filters():
     return {
         "Overall": all_words,
         "Seen":seen,
@@ -22,7 +22,7 @@ def get_jap_filters():
         "All Kanji": wo_hirakata,
         "Kana": with_hirakata
     }
-def get_jap_filters_compact():
+def get_jpn_filters_compact():
     return {
         "Seen":seen,
         "Unique Kanji": ukanji,

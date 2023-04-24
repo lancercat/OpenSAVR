@@ -8,7 +8,7 @@ import sys
 if __name__ == '__main__':    
     if(len(sys.argv)<3):
         DEV="ABLMAT";
-        DROOT="/run/media/lasercat/ssddata/all_283/";
+        DROOT="/home/lasercat/cat/eval_wcki_collection/opensavr-models/";
         MNAME=__file__.split("/")[-2];
     else:
         DEV=sys.argv[1];

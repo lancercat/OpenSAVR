@@ -46,7 +46,7 @@ def color(dict,ch,b,g,r):
             default[:,:,0]=249;
             default[:, :, 1] = 139;
             default[:, :, 2] = 111
-            print(ch);
+            # print(ch);
         return default;
     if ch == "[s]" or ch == '[UNK]':
         default = np.zeros([32, 32, 3], np.uint8) + 255;

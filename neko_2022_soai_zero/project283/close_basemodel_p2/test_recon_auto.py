@@ -4,8 +4,8 @@ from neko_sdk.environment.copy import copymodel
 from neko_sdk.environment.hosts import get_dev_meta
 from eval_configs_recon_auto import dan_close_all
 if __name__ == '__main__':
-    DEV="MEOWS-Gamarket2";
-    DROOT="/run/media/lasercat/ssddata/all_283/";
+    DEV="dev-3";
+    DROOT="/home/lasercat/cat/eval_wcki_collection/opensavr-models/";
     MNAME=__file__.split("/")[-2];
     copymodel(get_dev_meta()[DEV],DROOT, MNAME, "project283")
     do_experiments2(dan_close_all,DROOT,MNAME,"_E4",DEV,tag=TAG);

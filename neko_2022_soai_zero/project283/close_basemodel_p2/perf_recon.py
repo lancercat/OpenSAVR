@@ -8,8 +8,8 @@ import sys
 
 if __name__ == '__main__':    
     if(len(sys.argv)<3):
-        DEV="MEOWS-Gamarket2";
-        DROOT="/run/media/lasercat/ssddata/all_283/";
+        DEV="dev-3";
+        DROOT="/home/lasercat/cat/eval_wcki_collection/opensavr-models/";
         MNAME=__file__.split("/")[-2];
     else:
         DEV=sys.argv[1];

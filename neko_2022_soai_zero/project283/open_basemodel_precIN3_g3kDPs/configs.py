@@ -1,6 +1,6 @@
 
 from neko_2022_soai_zero.configs.routines.arm_water_routine import arm_water2_routine
-from neko_2022_soai_zero.configs.loadouts.protorec_v2 import arm_protorec_v2IN_module_set;
+from neko_2022_soai_zero.configs.loadouts.protorec_v2 import arm_v2IN_prec_module_setS;
 from neko_2022_soai_zero.project283.data_cfg import get_oss_training_protocol
 
 from neko_2022_soai_zero.configs.routines.osdanmk7g3_water2_routine_cfg import osdanmk7g3_rec_cyc3ks_ocr_routine
@@ -9,7 +9,7 @@ def model_mod_cfg(tr_meta_path_chs,tr_meta_path_mjst,maxT_mjst,maxT_chs):
     capacity=256;
     feat_ch=512;
     mods={};
-    mods=arm_protorec_v2IN_module_set(mods,TAG+"chs_",maxT_chs,capacity,feat_ch,tr_meta_path_chs,wemb=0,recon_speed=3);
+    mods=arm_v2IN_prec_module_setS(mods,TAG+"chs_",maxT_chs,capacity,feat_ch,tr_meta_path_chs,wemb=0,recon_speed=3);
     return mods;
 
 

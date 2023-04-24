@@ -4,6 +4,7 @@ from configs import TAG
 
 
 from neko_2022_soai_zero.configs.routines.osdanmk7recon_eval_routine_cfg import osdanmk7r_eval_routine_cfg,arm_base_task_default2ar
+from neko_2021_mjt.configs.data.chs_jpn_data import get_chs_HScqa,get_eval_jpn_color,get_chs_tr_meta,get_jpn_te_meta
 from neko_2021_mjt.dss_presets.dual_no_lsct_32 import get_eval_dss;
 def dan_mjst_eval_cfg(
         save_root,dsroot,

@@ -2,7 +2,7 @@
 
 from neko_sdk.ocr_modules.charset.chs_cset import t1_3755;
 from neko_sdk.ocr_modules.charset.etc_cset import latin62;
-from neko_sdk.ocr_modules.charset.jap_cset import hira,kata,Kyoiku_kanji,Joyo_kanji
+from neko_sdk.ocr_modules.charset.jpn_cset import hira,kata,Kyoiku_kanji,Joyo_kanji
 from neko_sdk.ocr_modules.charset.no_filter import all_words;
 
 def with_hirakata(gt):

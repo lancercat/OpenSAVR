@@ -5,7 +5,7 @@ from neko_sdk.environment.hosts import get_dev_meta
 from eval_configs_recon_auto import dan_close_all
 if __name__ == '__main__':
     DEV="DEV3";
-    DROOT="/run/media/lasercat/ssddata/all_283/";
+    DROOT="/home/lasercat/cat/eval_wcki_collection/opensavr-models/";
     MNAME=__file__.split("/")[-2];
     copymodel(get_dev_meta()[DEV],DROOT, MNAME, "project283")
     do_experiments2(dan_close_all,DROOT,MNAME,"latest",DEV,tag=TAG);

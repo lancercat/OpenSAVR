@@ -6,7 +6,8 @@ from neko_sdk.AOF.neko_lens import neko_lens
 from neko_sdk.encoders.chunked_resnet.bogo_nets import res45_net, res45_net_orig
 from neko_sdk.encoders.chunked_resnet.layer_presets import res45_wo_bn, res45_bn, res45p_wo_bn, res45p_bn
 
-
+class quick_layer_container:
+    pass;
 # so this thing keeps the modules and
 class neko_binorm_common(nn.Module):
     def __init__(this):

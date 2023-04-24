@@ -3,7 +3,7 @@ import os
 
 def get_dev_meta(branch="neko_2022_soai_zero"):
     return {
-        "DEV1":
+        "dev-1":
         {
             "ltype":"dash",
             "name": "DEV1",
@@ -22,7 +22,7 @@ def get_dev_meta(branch="neko_2022_soai_zero"):
             "port": "9",
             "addr": "localhost"
         },
-        "DEV2":
+        "dev-2":
         {
             "ltype": "dot",
             "name": "DEV2",
@@ -31,7 +31,7 @@ def get_dev_meta(branch="neko_2022_soai_zero"):
             "port": "9",
             "addr": "localhost"
         },
-        "DEV3":
+        "dev-3":
             {
                 "ltype": "dot",
                 "name": "DEV3",
@@ -40,7 +40,7 @@ def get_dev_meta(branch="neko_2022_soai_zero"):
                 "port": "9",
                 "addr": "localhost"
             },
-        "DEV4":
+        "dev-4":
             {
                 "ltype": "dot",
                 "name": "DEV4",
@@ -49,7 +49,7 @@ def get_dev_meta(branch="neko_2022_soai_zero"):
                 "port": "9",
                 "addr": "127.0.0.1"
             },
-        "DEV5":
+        "dev-5":
             {
                 "ltype": "dot",
                 "name": "DEV5",

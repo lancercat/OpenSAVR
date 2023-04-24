@@ -146,7 +146,7 @@ class lmdbDataset(Dataset):
                             char_dict["other"] += 1;
                             total_dict["other"] += 1;
                             has_other=1;
-                            print(c);
+                            #print(c);
                 line_dict["total"] += 1;
                 line_dict["digit"]+=has_dig;
                 line_dict["t1_chinese"] += has_t1ch;

@@ -8,7 +8,7 @@ import sys
 
 if __name__ == '__main__':    
     if(len(sys.argv)<3):
-        DEV="DEV3";
+        DEV="dev-2";
         DROOT="/home/lasercat/cat/eval_wcki_collection/opensavr-models/";
         MNAME=__file__.split("/")[-2];
     else:
@@ -16,6 +16,6 @@ if __name__ == '__main__':
         DROOT = sys.argv[2];
         MNAME = sys.argv[3];
     copymodel(get_dev_meta()[DEV],DROOT, MNAME, "project283")
-    do_experiments(dan_mjst_eval_cfg,DROOT,MNAME,"_E0",DEV,tag=TAG);
+    do_experiments(dan_mjst_eval_cfg,DROOT,MNAME,"_E0",DEV,tag=TAG,export_path="/run/media/lasercat/ssddata/project283dump/"+MNAME);
 
 

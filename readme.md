@@ -4,11 +4,12 @@ The code repo for ICDAR 2023 paper: Open-Set Text Recognition via Shape-Awarenes
 
 Working in progress. Will be ready and documented before the conference.
 
+[UPD] The models are now uploaded to google drive, at least it does not ask my phone number for uploading and won't ask yours for downloading... 
 
-[UPD] I will host it here for 30 days... 
-~~https://ufile.io/0g56kvt3~~
+Link: https://drive.google.com/file/d/1EhaAbKEWtKUUivEmb_0mbrWDKvimvepz/view?usp=sharing
 
-[UPD] The link is long gone, The cat is currently working on finding a new sharing site where everyone can download without having to pay, register, or installing nonsense shenanigans. 
-I will make sure to upload it to my google drive should I fail to find one before ICDAR 23 starts.
+md5sum: 9bc5335daf740e8129eb6b0bdc82b216  opensavr-models.zip
 
-### Dear community, is there a site where I can share the ~1.0Gib weights without providing my phone number?
+The cat is still finding a new sharing site where everyone can download without having to pay, register, or install nonsense shenanigans. If you have a better hosting choice, please share it with us.
+ 
+### Dear community, is there a site where I can share the ~1.0Gib weights without anyone providing their phone number?

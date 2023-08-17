@@ -2,8 +2,6 @@
 
 The code repo for ICDAR 2023 paper: Open-Set Text Recognition via Shape-Awareness Visual Reconstruction
 
-Working in progress. Will be ready and documented before the conference.
-
 [UPD] The models are now uploaded to google drive, at least it does not ask my phone number for uploading and won't ask yours for downloading... 
 
 Link: https://drive.google.com/file/d/1EhaAbKEWtKUUivEmb_0mbrWDKvimvepz/view?usp=sharing
